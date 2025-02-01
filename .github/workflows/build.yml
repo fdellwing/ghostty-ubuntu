@@ -30,8 +30,8 @@ jobs:
         arch:
           - name: amd64
             runner: ubuntu-24.04
-          - name: arm64
-            runner: ubuntu-24.04-arm
+          #- name: arm64
+          #  runner: ubuntu-24.04-arm
         builds:
           # Build errors with Ghostty 1.1. Can put this back when we fix the errors.
            - distro: "ubuntu"
